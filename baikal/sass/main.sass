@@ -1,0 +1,522 @@
+
+
+body
+  background-color: #eaeaea
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-style: 1.14vmax
+  line-height: 1.33vmax
+
+.wrap
+  width: 81.66vw
+  margin: 0 auto
+  position: relative
+
+.dark
+  background-color: #2e2e30
+  color: #fff
+
+.gray
+  background-color: #838d8f
+  color: #fff
+
+#top
+  width: 100%
+  height: 9.16vmax
+
+#top, #menu
+  .wrap
+    height: inherit
+
+div.btn
+  border-radius: 0.33vw
+  padding: 0.66vw 1.32vw
+  overflow: hidden
+  cursor: pointer
+
+#sign
+  border: 1px solid #ededed
+  color: #fff
+  font-size: 0.83vmax
+  svg
+    width: 1.33vmax
+    height: 1.33vmax
+    fill: #7e7e7e
+    margin-right: 1.83vmax
+ 
+#sign:hover
+  background-color: #ededed
+  color: #2e2e30
+  transition: 0.5s
+
+#language, #currency
+  margin-left: 5.25vmax
+  color: #aaaaaa
+  span
+    color: #fff
+    cursor: pointer
+    margin-left: 1vmax
+
+#currency
+  margin-left: 0
+  margin-right: 5.25vmax
+
+#logo
+  svg
+    width: inherit
+    height: inherit
+  
+#logo, #logo a
+  display: block
+  height: 4.33vmax
+  width: 11.33vmax
+  text-decoration: none
+
+#cart
+  border: 1px solid #86ce8e
+  font-size: 0.83vmax
+  color: #86ce8e
+  svg
+    width: 1.25vmax
+    height: 1.16vmax
+    margin-right: 1.5vmax
+    fill: #86ce8e
+
+#cart:hover
+  background-color: #86ce8e
+  color: #fff
+  transition: 0.5s
+  svg
+    fill: #fff
+
+#menu
+  background-color: #fff
+  width: 100%
+  height: 4.16vmax
+
+nav
+  a
+    text-decoration: none
+
+#main_nav,
+#main_nav div,
+#main_nav a
+  display: flex
+  flex-flow: row nowrap
+  height: inherit
+  align-items: center
+  justify-content: center
+
+#main_nav
+  a
+    padding: 0 1.5vmax
+    color: #3c3d41
+    text-transform: uppercase
+    font-weight: bold
+
+#main_nav
+  a:hover
+    background-color: #3c3d41
+    color: #fff
+
+#search_button
+  position: absolute
+  cursor: pointer
+  right: 0
+  top: calc(50%-0.75vmax)
+  svg
+    width: 1.5vmax
+    height: 1.5vmax
+
+#banner
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 16.66vmax
+  overflow: hidden
+  background-image: radial-gradient(circle 55px at 303% -561%, #d7e8ec 0%, #c2d1d1 100%)
+  text-align: center
+  img
+    min-height: 100%
+    max-width: 100%
+  div
+    margin-left: 25%
+    h2
+      font-weight: bold
+      font-size: 3.5vmax
+      margin-bottom: 2vmax  
+    p
+      width: 22vmax
+      font-size: 1vmax 
+
+
+main
+  padding-top: 4.16vmax
+  padding-bottom: 6.65vmax
+
+#left_bar
+  width: 19.16vw
+
+#right_bar
+  width: 60.83vw
+
+.box
+  border-radius: 0.33vw
+  background-color: #fff
+
+#load_more
+  border: none
+  width: 100%
+  border-radius: 0.33vw
+  color: #fff
+  background-color: #b8c6c7
+  font-size: 1.5vmax
+  padding-top: 1.5vmax
+  padding-bottom: 1.5vmax
+  outline: none
+  margin-top: 1.66vmax
+
+#load_more:hover
+  transform: scale(0.95)
+  background-color: #97a2a3
+  
+
+.img_product
+  width: 100%
+  height: 13.33vmax
+  overflow: hidden
+  text-align: center
+  margin-bottom: 2.08vmax
+  img
+    height: 100%
+    width: auto
+
+.product:nth-of-type(3n)
+  margin-right: 0
+
+.product
+  flex-flow: column nowrap
+  text-decoration: none
+  padding: 1.66vmax 1.66vw
+  width: 19.16vw
+  height: 25vmax
+  margin-bottom: 1.66vmax
+  margin-right: 1.66vw 
+  position: relative
+  h2
+    font-size: 1.25vmax
+    line-height: 1.5vmax
+    text-align: center
+    color: #3a3d3f
+    margin-bottom: 0.83vmax
+    font-weight: bold
+  p:first-of-type
+    text-align: center
+    font-style: italic
+    color: #838c8e
+    font-size: 1vmax
+
+.product:hover
+  transform: scale(1.05)  
+  box-shadow: 5px 5px 14px 0px #838c8e;
+
+.price
+  color: #3a3d3f
+  font-size: 1.08vmax
+  font-weight: bold
+  margin-top: 0.83vmax
+
+.tag
+  background-color: #84ce8b
+  color: #fff
+  padding: 0.41vmax
+  font-size: 0.83vmax
+  text-transform: uppercase
+  right: 1vmax
+  position: absolute
+  z-index: 1
+  top: 1vmax
+  letter-spacing: 0.2vw
+
+.list_box
+  width: 100%
+
+.title_box, .title_filter
+  width: 100%
+  height: 4.16vmax
+  padding: 0 1.66vmax
+  border-bottom: 1px solid #eee
+  cursor: pointer
+  svg
+    width: 0.41vmax
+    height: 0.66vmax
+    fill: #ccc
+  p
+    color: #3c3d41
+    font-size: 0.91vmax
+    text-transform: uppercase
+    letter-spacing: 0.1vw
+    font-weight: bold
+
+.title_box.open
+  svg
+    fill: #838d8f
+    transform: rotate(90deg)
+
+.list_link.open
+  height: auto
+  overflow: auto
+  padding: 1.66vmax
+
+
+.list_link
+  background-color: #838d8f
+  height: 0
+  overflow: hidden
+  a
+    color: #daddde
+    font-size: 1.08vmax
+    display: block
+    width: 100%
+  div
+    margin-bottom: 1.25vmax
+  a:hover
+    color: #fff
+
+
+
+.list_link div:last-of-type
+  margin-bottom: 0
+
+.title_filter
+  margin-top: 1.83vmax
+
+.list_filter 
+  list-style: none
+  li
+    margin-right: 0.66vw
+    margin-bottom: 0.83vmax
+  li:nth-of-type(5n)
+    margin-right: 0
+  input[type="checkbox"]
+    display: none
+  label
+    display: flex
+    flex-flow: row nowrap
+    justify-content: center
+    align-items: center
+    width: 2.66vmax
+    height: 2.66vmax
+    border-radius: 2.66vmax
+    background-color: #eee
+    cursor: pointer
+    color: #3c3d41
+    font-size: 0.9vmax
+
+.content_filter
+  padding: 1.6vmax
+
+
+.color_list input[type=checkbox]:checked + label
+  box-shadow: 0 0 5px 3px #ababab
+
+input[type=checkbox]:checked + label
+  background-color: #838d8f
+  color: #fff
+
+.price_box
+  margin-top: 1vmax
+  input
+    border: none
+    font-size: 1.08vmax
+    color: #878787
+    text-align: center
+    width: 30%
+  input:focus
+    border: none
+    outline: none
+    
+footer
+  width: 100%
+  min-height: 20.25vmax
+  background-color: #fff
+  padding-top: 5vmax
+  padding-bottom: 5vmax 
+
+
+#footer_nav
+  margin-bottom: 3vmax
+  a
+    text-transform: uppercase
+    color: #3c3d41
+    font-weight: bold
+    font-size: 1vmax
+    padding-right: 2vmax
+  a:hover
+    text-decoration: underline
+    
+  
+#footer_nav div:last-of-type
+  padding-right: 0
+
+#newsletter
+  p
+    color: #3c3d41
+    font-size: 0.9vmax
+    font-weight: bold
+    margin-right: 2vmax
+  input
+    border: none
+    outline: none
+    height: 2.66vmax
+    width: 18.8vmax
+    background-color: #eee
+    color: #878787
+    font-size: 1vmax
+    padding-left: 1.25vmax
+    padding-right: 3vmax
+    background-image: url('../img/icon/Mail_Icon.png')
+    background-repeat: no-repeat
+    background-position: 98% 50%
+    border-radius: 0.33vw
+
+#soc_list
+  margin-top: 2.8vmax
+  li
+    list-style: none
+    margin-right: 3.5vmax
+  li:last-of-type
+    margin-right: 0
+  svg 
+    height: 1.25vmax
+    width: auto
+    fill: #838d8f
+
+#cart_box
+  position: fixed
+  right: 0
+  top: 0
+  height: 100vh
+  z-index: 10
+  background-color: #fff
+  width: 35vw
+  box-shadow: -3px 2px 9px rgba(88, 88, 88, 0.52)
+  transform: translateX(100%)
+  transition: 0.5s
+  flex-flow: column nowrap !important
+  border-radius: 2vmax 0 0 2vmax
+  
+
+#cart_box.open
+  transform: translateX(0)
+
+.title_cart
+  background-color: #5ba582
+  width: 100%
+  height: 4vmax
+  padding: 1vmax
+  color: #fff
+  fill: #fff
+  cursor: pointer
+  border-radius: 2vmax 0 0 0  
+
+#next
+  width: 1.5vmax
+  height: 1.5vmax
+
+#order, .submit
+  width: 100%
+  height: 4vmax
+  color: #fff
+  border: none
+  background-color: #2c8daa
+  font-size: 1.1vmax
+  text-transform: uppercase
+  border-radius: 0 0 0 2vmax
+
+
+#black_fill
+  position: fixed
+  width: 100%
+  height: 100vh
+  background-color: rgba(0,0,0,.7)
+  z-index: 101
+  top: 0
+  left: 0
+  display: none
+
+#modal
+  position: fixed
+  z-index: 102
+  width: 30vw
+  top: 15vh
+  display: none
+  left: calc( 50% - 15vw )
+
+#content_modal
+  background: #fff
+  border-radius: 0.33vmax
+  padding: 1.5vw
+  width: 100%
+
+
+#black_fill.open, #modal.open
+  display: block !important
+  
+
+#close_mod
+  width: 1.5vmax
+  height: 1.5vmax
+  position: absolute
+  top: -2vmax
+  right: -2vmax
+  cursor: pointer
+  fill: #fff
+
+.input
+  width: 100%
+  margin-bottom: 1vmax
+  input
+    width: 100%
+    height: 3vmax
+    font-size: 1.1vmax
+    text-align: center
+    background-origin: 0.33vmax
+    border: 1px solid #ccc
+    outline: none
+
+.submit
+  border-radius: 0.33vmax
+
+#search_panel
+  position: absolute
+  z-index: 5
+  height: inherit
+  background-color: #fff
+  padding: 1vmax 
+  top: 0
+  left: 0
+  width: 96%
+  display: none
+  input
+    width: 100%
+    height: 2.16vmax
+    outline: none
+    padding-left: 1vmax
+    border: 1px silid #a5b3b3
+    
+#search_panel.open
+  display: block  !important
+  
+  
+
+
+
+
+
+
+
+
+
+
+

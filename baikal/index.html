@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Baikal</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/flex.css" type="text/css">
+  <link rel="stylesheet" href="sass/main.css" type="text/css">
+  <link rel="stylesheet" href="sass/queries.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+</head>
+<body>
+  
+  <div id="modal">
+    <div id="close_mod"><?xml version="1.0" encoding="iso-8859-1"?>
+      <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;" xml:space="preserve">
+      
+        <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M131.804,106.491l75.936-75.936c6.99-6.99,6.99-18.323,0-25.312
+          c-6.99-6.99-18.322-6.99-25.312,0l-75.937,75.937L30.554,5.242c-6.99-6.99-18.322-6.99-25.312,0c-6.989,6.99-6.989,18.323,0,25.312
+          l75.937,75.936L5.242,182.427c-6.989,6.99-6.989,18.323,0,25.312c6.99,6.99,18.322,6.99,25.312,0l75.937-75.937l75.937,75.937
+          c6.989,6.99,18.322,6.99,25.312,0c6.99-6.99,6.99-18.322,0-25.312L131.804,106.491z"/>
+      </svg>
+      </div>
+    <div id="content_modal">
+      <form action="">
+        <div class="input">
+          <input type="text" name="login" placeholder="login">
+        </div>
+        <div class="input">
+          <input type="password" name="password" placeholder="password">
+        </div>
+        <button class="submit">Sing in</button>
+      </form>
+    </div>
+    </div>
+
+    <div id="black_fill"></div>
+
+
+
+  <div id="cart_box" class="main_flex__nowrap flex__jcontent_between flex__align-items_center">
+
+    <div class="title_cart main_flex__nowrap flex__jcontent_between flex__align-items_center">
+      <p>Your shopping cart</p>
+      <?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+	<path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+		c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+		"/>
+</svg>
+
+    </div>
+
+    <div class="content_cart"></div>
+
+    <button id="order" type="button">Order</button>
+
+  </div>
+
+
+
+
+  <header class="dark">
+
+    <div id="top">
+      <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+        <div class="main_flex__nowrap flex__align-items_center">
+
+          <div id="sign" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 18 17"><defs><path id="o090a" d="M143.3 59.182c0-1.135-1.711-1.765-2.576-2.107-.522-.216-1.062-.432-1.584-.666-.702-.324-1.423-.702-1.945-1.297-.18-.216-.288-.36-.288-.648 0-.414.108-.828.198-1.224.144-.613.45-1.117.702-1.693.288-.72.397-1.476.54-2.214.055-.325.145-.63.145-.955 0-2.233-1.17-4.195-3.602-4.195-2.43 0-3.6 1.962-3.6 4.195 0 .324.107.63.161.955.162.738.253 1.494.559 2.214.252.576.576 1.08.702 1.693.108.396.198.81.198 1.224 0 .288-.108.432-.288.648-.522.595-1.243.972-1.945 1.297-.522.252-1.062.45-1.584.666-.864.36-2.593.972-2.593 2.107v1.8h16.8v-1.8z"/></defs><g><g transform="translate(-126 -44)"><use  xlink:href="#o090a"/></g></g></svg>
+
+            SING IN
+
+          </div>
+
+          <div id="language">
+            Language: <span>Ukrainian</span> 
+          </div>
+          
+        </div>
+
+        <div id="logo">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151 44"><g><g transform="translate(-525 -35)"><g><text dominant-baseline="text-before-edge" style="line-height:28px" fill="#fff" font-family="'Montserrat','Montserrat-Bold'" font-size="56" font-style="none" font-weight="700" transform="translate(525 29)"><tspan style="font-kerning:normal" letter-spacing="-1.4">Baikal</tspan></text></g></g></g></svg></a>
+        </div>
+
+        <div class="main_flex__nowrap flex__align-items_center">
+
+          <div id="currency">
+            Currency: <span>US Dollar</span>
+          </div>
+
+          <div id="cart" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 15 14"><defs><path id="ck4na" d="M1011.86 57.85h-6.327c-.677 0-1.291-.484-1.43-1.126l-1.54-7.169h-2.556V48h2.674c.676 0 1.29.484 1.429 1.127l.426 1.984h9.284c.406 0 .764.173.981.476.218.302.263.687.123 1.057l-1.593 4.21c-.219.578-.838.997-1.472.997zm-6.21-1.555h6.21l1.35-3.628h-8.34zm.417 5.705c-.884 0-1.604-.698-1.604-1.556 0-.857.72-1.555 1.604-1.555.885 0 1.604.698 1.604 1.555 0 .858-.72 1.556-1.604 1.556zm5.615 0c-.885 0-1.604-.698-1.604-1.556 0-.857.72-1.555 1.604-1.555.884 0 1.604.698 1.604 1.555 0 .858-.72 1.556-1.604 1.556z"/></defs><g><g transform="translate(-1000 -48)"><use xlink:href="#ck4na"/></g></g></svg>
+
+            CART
+
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+
+    <div id="menu">
+      <div class="wrap main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+        <nav id="main_nav">
+          <div><a href="#">MENS</a></div>
+          <div><a href="#">WOMENS</a></div>
+          <div><a href="#">GOODS</a></div>
+          <div><a href="#">ACCESSORIES</a></div>
+          <div><a href="#">BRANDS</a></div>
+          <div><a href="#">BLOG</a></div>
+        </nav>
+
+        <div id="search_panel">
+          <input type="text" placeholder="search">
+        </div>
+
+        <div id="search_button">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 18 18"><defs><path id="6mzpa" d="M1077.117 139.044c-2.738 0-4.982-2.262-4.982-5.043 0-2.8 2.226-5.063 4.982-5.063 2.737 0 4.96 2.282 4.96 5.063 0 2.781-2.223 5.043-4.96 5.043zm6.839-5.043c0-4.19-2.715-6.939-6.84-6.939-4.123 0-6.856 2.75-6.856 6.94s2.733 6.922 6.857 6.922c1.496 0 2.993-.356 4.234-.986l3.99 4.258 1.892-1.89-4.267-4.022c.643-1.242.99-2.763.99-4.283z"/></defs><g><g transform="translate(-1070 -127)"><use fill="#3c3d41" xlink:href="#6mzpa"/></g></g></svg>
+        </div>
+
+
+      </div>
+    </div>
+
+  </header>
+
+  <div id="banner">
+	<div>
+    		<h2>Our Legacy</h2>
+    		<p>The Swedish brand places strong emphasis on quality, ensuring the clothes have timeless quality.</p>
+	</div>
+    <img src="img/banner/banner1.png" alt="banner">
+  </div>
+
+  <main class="wrap main_flex__nowrap flex__jcontent_between flex__align-items_start">
+
+    <div id="left_bar">
+      
+      <div id="category" class="box">
+
+        <div class="list_box">
+
+          <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+            <p>WOMAN</p>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 5 8"><defs><path id="i3xga" d="M318.647 436L316 438.774l1.167 1.225 3.833-4-3.833-4-1.167 1.224 2.647 2.775z"/></defs><g><g transform="translate(-316 -432)"><use  xlink:href="#i3xga"/></g></g></svg>
+
+          </div>
+
+          <div class="list_link">
+
+            <nav>
+              <div><a href="#">Jackets</a></div>
+              <div><a href="#">Blazers</a></div>
+              <div><a href="#">Suits</a></div>
+              <div><a href="#">Trousers</a></div>
+              <div><a href="#">Jeans</a></div>
+              <div><a href="#">Shirts</a></div>
+            </nav>
+
+          </div>
+
+        </div>
+        <div class="list_box">
+
+          <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+            <p>MAN</p>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 5 8"><defs><path id="i3xga" d="M318.647 436L316 438.774l1.167 1.225 3.833-4-3.833-4-1.167 1.224 2.647 2.775z"/></defs><g><g transform="translate(-316 -432)"><use  xlink:href="#i3xga"/></g></g></svg>
+
+          </div>
+
+          <div class="list_link">
+
+            <nav>
+              <div><a href="#">Jackets</a></div>
+              <div><a href="#">Blazers</a></div>
+              <div><a href="#">Suits</a></div>
+              <div><a href="#">Trousers</a></div>
+              <div><a href="#">Jeans</a></div>
+              <div><a href="#">Shirts</a></div>
+            </nav>
+
+          </div>
+
+        </div>
+        <div class="list_box">
+
+          <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+            <p>KIDS</p>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 5 8"><defs><path id="i3xga" d="M318.647 436L316 438.774l1.167 1.225 3.833-4-3.833-4-1.167 1.224 2.647 2.775z"/></defs><g><g transform="translate(-316 -432)"><use  xlink:href="#i3xga"/></g></g></svg>
+
+          </div>
+
+          <div class="list_link">
+
+            <nav>
+              <div><a href="#">Jackets</a></div>
+              <div><a href="#">Blazers</a></div>
+              <div><a href="#">Suits</a></div>
+              <div><a href="#">Trousers</a></div>
+              <div><a href="#">Jeans</a></div>
+              <div><a href="#">Shirts</a></div>
+            </nav>
+
+          </div>
+
+        </div>
+        <div class="list_box">
+
+          <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+            <p>SHOES&BAGS</p>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 5 8"><defs><path id="i3xga" d="M318.647 436L316 438.774l1.167 1.225 3.833-4-3.833-4-1.167 1.224 2.647 2.775z"/></defs><g><g transform="translate(-316 -432)"><use  xlink:href="#i3xga"/></g></g></svg>
+
+          </div>
+
+          <div class="list_link">
+
+            <nav>
+              <div><a href="#">Jackets</a></div>
+              <div><a href="#">Blazers</a></div>
+              <div><a href="#">Suits</a></div>
+              <div><a href="#">Trousers</a></div>
+              <div><a href="#">Jeans</a></div>
+              <div><a href="#">Shirts</a></div>
+            </nav>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="filter_box box">
+
+        <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+          <p>COLORS</p> 
+        </div>
+
+        <div class="content_filter">
+          <ul class="list_filter main_flex flex__jcontent_start flex__align-items_start color_list">
+            <li>
+              
+              <input type="checkbox" id="color1">
+              <label style="background-color: #1476f1" for="color1"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color2">
+              <label style="background-color: #82d889" for="color2"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color3">
+              <label style="background-color: #3c3d41" for="color3"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color4">
+              <label style="background-color: #838d8f" for="color4"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color5">
+              <label style="background-color: #b8c6c7" for="color5"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color6">
+              <label style="background-color: #ce954a" for="color6"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color7">
+              <label style="background-color: #7b7f91" for="color7"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color8">
+              <label style="background-color: #777777" for="color8"></label>
+            </li>
+            <li>
+             
+              <input type="checkbox" id="color9">
+              <label style="background-color: #bdbdbd" for="color9"></label>
+            </li>
+            <li>
+              
+              <input type="checkbox" id="color10">
+              <label style="background-color: #eeeeee" for="color10"></label>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="filter_box box">
+
+        <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+          <p>SIZE</p> 
+        </div>
+
+        <div class="content_filter">
+          <ul class="list_filter main_flex flex__jcontent_start flex__align-items_start">
+            <li>
+              <input type="checkbox" id="size1">
+              <label for="size1">XS</label>
+            </li>
+            
+            <li>
+              <input type="checkbox" id="size2">
+              <label for="size2">S</label>
+            </li>
+            
+            <li>
+              <input type="checkbox" id="size3">
+              <label for="size3">M</label>
+            </li>
+            
+            <li>
+              <input type="checkbox" id="size4">
+              <label for="size4">L</label>
+            </li>
+            
+            <li>
+              <input type="checkbox" id="size5">
+              <label for="size5">XL</label>
+            </li>
+            
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="filter_box box">
+
+        <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+          <p>PRICE RANGE</p> 
+        </div>
+
+        <div class="content_filter">
+          
+          <div id="slider_price"></div>
+
+          <div class="price_box main_flex__nowrap flex__jcontent_between flex__align-items_center">
+            <input type="text" name="minPrice" value="">
+            <input type="text" name="maxPrice" value="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="right_bar">
+
+      <div class="list_product main_flex flex__jcontent_start flex__align-items_start">
+
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+            <div class="tag box">
+              new
+            </div>
+            <div class="img_product">
+              <img src="img/towar/Image1.png" alt="towar1">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image2.png" alt="towar2">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image3.png" alt="towar3">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image4.png" alt="towar4">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image5.png" alt="towar5">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image6.png" alt="towar6">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image7.png" alt="towar7">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image8.png" alt="towar8">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+          <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+            <div class="img_product">
+              <img src="img/towar/Image9.png" alt="towar9">
+            </div>
+            <h2>Our Legacy Splash Jacquard Knit</h2>
+            <p>Black Grey Plants</p>
+            <p class="price">$290</p>
+          </a>
+
+      </div>
+
+      <button id="load_more" type="button">
+        Load More
+      </button>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <nav id="footer_nav" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+          <div><a href="#">LEGAL INFORMATION</a></div>
+          <div><a href="#">TERMS</a></div>
+          <div><a href="#">DATA PRIVACY</a></div>
+          <div><a href="#">SIZING</a></div>
+          <div><a href="#">SHIPPING</a></div>
+          <div><a href="#">CONTACT</a></div>
+        </nav>
+      </div>
+      <div id="newsletter" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+        <p>NEWSLETTER</p>
+        <input type="text" placeholder="E-mail">
+      </div>
+      <div>
+        <ul id="soc_list" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+          <li><a target="_blank" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 8 16"><defs><path id="z4pda" d="M553.505 1698.18h-2.556v-1.66c0-.623.417-.769.71-.769h1.804v-2.741l-2.484-.01c-2.757 0-3.384 2.045-3.384 3.353v1.828H546v2.825h1.595V1709h3.354v-7.994h2.263z"/></defs><g><g transform="translate(-546 -1693)"><use  xlink:href="#z4pda"/></g></g></svg></a>
+          </li>
+
+          <li><a target="_blank" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 18 13"><defs><path id="987na" d="M606.953 1697.28c-.011-.005-.023-.018-.034-.029a3.155 3.155 0 0 0-2.309-.836l-.027-.06c.006-.006.011-.006.017-.006.802-.176 1.277-.358 1.419-.556.049-.16-.01-.248-.186-.27-.404.05-.775.132-1.108.26.42-.26.584-.441.491-.535-.414.011-.862.215-1.332.617.175-.287.24-.441.197-.469a3.75 3.75 0 0 0-.59.48c-.355.38-.638.732-.857 1.052l-.01.027a9.202 9.202 0 0 0-1.19 2.654l-.088.067-.016.015a4.417 4.417 0 0 0-1.228-1.025 14.77 14.77 0 0 0-2.02-1.028 17.538 17.538 0 0 0-2.571-1.035c-.005.93.47 1.673 1.414 2.213v.016a3.138 3.138 0 0 0-.966.138c.06.865.698 1.46 1.91 1.79l-.006.016a1.42 1.42 0 0 0-1.173.463c.398.749 1.103 1.106 2.124 1.079-.203.1-.36.208-.464.33-.186.188-.246.408-.186.661.218.38.611.556 1.19.529l.032.038-.016.017c-.999.991-2.205 1.437-3.62 1.343l-.021.011c-.862-.006-1.785-.402-2.784-1.194 1.005 1.386 2.337 2.388 3.985 3.017 1.889.6 3.778.644 5.66.131h.033c1.83-.506 3.38-1.547 4.657-3.121.59-.826.96-1.613 1.108-2.368.955.033 1.643-.23 2.069-.792l-.01-.017c-.318.11-.94.078-1.863-.104v-.1c0-.005 0-.005.006 0 1.01-.11 1.605-.423 1.796-.942a2.931 2.931 0 0 1-2.086.023c-.125-.915-.572-1.746-1.347-2.5z"/></defs><g><g transform="translate(-593 -1695)"><use xlink:href="#987na"/></g></g></svg></a>
+          </li>
+
+          <li><a target="_blank" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 15 15"><defs><path id="dhe8a" d="M643.252 1694c-.683 0-1.252.613-1.252 1.29v3.242h4.837c.762-.552 1.57-1.024 2.545-1.024.945 0 1.798.472 2.545 1.024H657v-3.242c0-.677-.61-1.29-1.34-1.29zm12.21 3.52h-1.996c-.29 0-.533-.2-.533-.436v-1.632c0-.237.243-.425.533-.425h1.996c.29 0 .516.188.516.425v1.632c0 .237-.226.436-.516.436zm-3.535 4.188c0-1.463-1.143-2.64-2.545-2.64s-2.545 1.177-2.545 2.64 1.143 2.655 2.545 2.655 2.545-1.192 2.545-2.655zm1.715-.063c0 2.32-1.854 4.197-4.133 4.197-2.28 0-4.135-1.876-4.135-4.197 0-.334.032-.668.126-.986H642v6.998c0 .733.569 1.343 1.252 1.343h12.5c.681 0 1.248-.61 1.248-1.343v-6.998h-3.732c.344.318.374.652.374.986z"/></defs><g><g transform="translate(-642 -1694)"><use xlink:href="#dhe8a"/></g></g></svg></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/control.js"></script>
+
+</body>
+</html>

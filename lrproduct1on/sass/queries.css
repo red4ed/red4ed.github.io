@@ -1,0 +1,483 @@
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  #top_header {
+    display: none;
+  }
+  #header {
+    padding: 5vh 0;
+  }
+  .wrapg {
+    width: 100vw;
+  }
+  #bottom_header nav {
+    width: 100vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #bottom_header nav li {
+    list-style: none;
+  }
+  #bottom_header nav a {
+    font-size: 6vw;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .logolr {
+    width: 10vw;
+  }
+  #top_header {
+    height: 15vh;
+    overflow: hidden;
+  }
+  #phone {
+    color: #000;
+    width: 50vw;
+    height: 6vw;
+    font-size: 6vw;
+  }
+  .dws-button {
+    width: 10vw;
+    height: 10vw;
+  }
+  .dws-button a {
+    color: #000;
+    text-decoration: none;
+  }
+  .dws-button a img {
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    display: block;
+  }
+  .dws-text {
+    display: none;
+  }
+  .about_lr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .telegram-btn {
+    width: 60vw;
+    height: 4vw;
+    padding: 0;
+  }
+  .telegram-btn p {
+    margin-top: 4.5vw;
+    font-size: 7vw;
+    float: left;
+    text-align: center;
+    color: #696969;
+  }
+  .telegram-btn a {
+    color: #000;
+    text-decoration: none;
+  }
+  .telegram-btn a img {
+    height: 12vw;
+    width: 12vw;
+    text-align: center;
+    display: block;
+  }
+  .tel-text {
+    margin-top: 4.5vw;
+    float: left;
+    font-size: 7vw;
+    position: relative;
+  }
+  .tel-share {
+    float: right;
+    width: 12vw;
+  }
+  #title_about {
+    width: 90vw;
+  }
+  #text_about {
+    width: 90vw;
+    padding-right: 0;
+  }
+  .text p {
+    font-size: 6vw;
+    line-height: 4.5vw;
+    text-align: center;
+  }
+  .name_tm h3 {
+    margin-bottom: 4vw;
+    font-size: 7vw;
+  }
+  .in-button {
+    width: 30vw;
+    height: 8vw;
+  }
+  .in-button a {
+    color: #000;
+    text-decoration: none;
+  }
+  .in-button a img {
+    height: 8vw;
+    width: 8vw;
+    text-align: center;
+    display: block;
+  }
+  .in-share {
+    float: left;
+    width: 8vw;
+  }
+  .in-text {
+    margin-top: 2vw;
+    float: right;
+    font-size: 7vw;
+    position: relative;
+  }
+  .tl-button {
+    width: 29vw;
+    height: 8vw;
+  }
+  .tl-button a {
+    color: #000;
+    text-decoration: none;
+  }
+  .tl-button a img {
+    height: 8vw;
+    width: 8vw;
+    text-align: center;
+    display: block;
+  }
+  .tl-share {
+    float: left;
+    width: 8vw;
+  }
+  .tl-text {
+    margin-top: 2vw;
+    float: right;
+    font-size: 7vw;
+    position: relative;
+  }
+  .call-button {
+    width: 50vw;
+    height: 10vw;
+  }
+  .call-button img {
+    height: 8vw;
+    width: 8vw;
+    text-align: center;
+    display: block;
+  }
+  .call-share {
+    float: left;
+    width: 8vw;
+  }
+  .call-text {
+    margin-top: 2vw;
+    float: right;
+    font-size: 6vw;
+    position: relative;
+  }
+  .contact {
+    margin-top: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .contact_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #gallery {
+    height: 100vh;
+  }
+  .gallery_smart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .btn_t {
+    display: none;
+  }
+  #about {
+    height: 100%;
+    padding-top: 12vh;
+  }
+  .box_img_tm {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 45vw;
+  }
+  #inst {
+    margin-bottom: 3vw;
+  }
+  #telegram {
+    margin-bottom: 3vw;
+  }
+  #call {
+    margin-bottom: 3vw;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #top_header {
+    display: none;
+  }
+  #header {
+    padding: 5vh 0;
+  }
+  .wrapg {
+    width: 100vw;
+  }
+  #bottom_header nav {
+    width: 100vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #bottom_header nav li {
+    list-style: none;
+  }
+  #bottom_header nav a {
+    font-size: 6vw;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .logolr {
+    width: 10vw;
+  }
+  #top_header {
+    height: 15vh;
+    overflow: hidden;
+  }
+  #phone {
+    color: #000;
+    width: 50vw;
+    height: 6vw;
+    font-size: 6vw;
+  }
+  .dws-button {
+    width: 10vw;
+    height: 10vw;
+  }
+  .dws-button a {
+    color: #000;
+    text-decoration: none;
+  }
+  .dws-button a img {
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    display: block;
+  }
+  .dws-text {
+    display: none;
+  }
+  .about_lr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .telegram-btn {
+    width: 60vw;
+    height: 4vw;
+    padding: 0;
+  }
+  .telegram-btn p {
+    margin-top: 4.5vw;
+    font-size: 7vw;
+    float: left;
+    text-align: center;
+    color: #696969;
+  }
+  .telegram-btn a {
+    color: #000;
+    text-decoration: none;
+  }
+  .telegram-btn a img {
+    height: 12vw;
+    width: 12vw;
+    text-align: center;
+    display: block;
+  }
+  .tel-text {
+    margin-top: 4.5vw;
+    float: left;
+    font-size: 7vw;
+    position: relative;
+  }
+  .tel-share {
+    float: right;
+    width: 12vw;
+  }
+  #title_about {
+    width: 90vw;
+  }
+  #text_about {
+    width: 90vw;
+    padding-right: 0;
+  }
+  .text p {
+    font-size: 6vw;
+    line-height: 4.5vw;
+    text-align: center;
+  }
+  .name_tm h3 {
+    margin-bottom: 4vw;
+    font-size: 7vw;
+  }
+  .in-button {
+    width: 30vw;
+    height: 8vw;
+  }
+  .in-button a {
+    color: #000;
+    text-decoration: none;
+  }
+  .in-button a img {
+    height: 8vw;
+    width: 8vw;
+    text-align: center;
+    display: block;
+  }
+  .in-share {
+    float: left;
+    width: 8vw;
+  }
+  .in-text {
+    margin-top: 2vw;
+    float: right;
+    font-size: 7vw;
+    position: relative;
+  }
+  .tl-button {
+    width: 29vw;
+    height: 8vw;
+  }
+  .tl-button a {
+    color: #000;
+    text-decoration: none;
+  }
+  .tl-button a img {
+    height: 8vw;
+    width: 8vw;
+    text-align: center;
+    display: block;
+  }
+  .tl-share {
+    float: left;
+    width: 8vw;
+  }
+  .tl-text {
+    margin-top: 2vw;
+    float: right;
+    font-size: 7vw;
+    position: relative;
+  }
+  .call-button {
+    width: 50vw;
+    height: 10vw;
+  }
+  .call-button img {
+    height: 8vw;
+    width: 8vw;
+    text-align: center;
+    display: block;
+  }
+  .call-share {
+    float: left;
+    width: 8vw;
+  }
+  .call-text {
+    margin-top: 2vw;
+    float: right;
+    font-size: 6vw;
+    position: relative;
+  }
+  .contact {
+    margin-top: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .contact_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #gallery {
+    height: 100%;
+  }
+  .gallery_smart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .btn_t {
+    display: none;
+  }
+  #about {
+    height: 100%;
+    padding-top: 12vh;
+  }
+  .box_img_tm {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 45vw;
+  }
+  #inst {
+    margin-bottom: 3vw;
+  }
+  #telegram {
+    margin-bottom: 3vw;
+  }
+  #call {
+    margin-bottom: 3vw;
+  }
+}

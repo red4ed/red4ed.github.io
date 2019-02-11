@@ -1,0 +1,308 @@
+@media only screen and (max-width: 320px) {
+  header {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  #logo {
+    height: 20vh;
+    font-size: 10vw;
+  }
+  #main_nav a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2.5vmax;
+    height: 6vmax;
+  }
+  #main_nav, #filter, #soc_bar {
+    display: none;
+  }
+  #main_nav.open {
+    display: block;
+  }
+  #menu_btn {
+    display: block;
+    font-size: 3vmax;
+    color: #fff;
+    background-color: #808080;
+    padding: 3vw;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+  main {
+    padding-left: 0;
+  }
+  .work_box {
+    width: 50%;
+    height: 50vw;
+    max-width: 50vw;
+  }
+  .work_box img {
+    height: 100%;
+    width: auto;
+  }
+  .info_work_box .left_info, .info_work_box .right_info {
+    width: 100%;
+  }
+  .info_about_box .left_info, .info_about_box .right_info {
+    width: 100%;
+  }
+  .info_work_box .left_info .img_box_work {
+    height: auto;
+  }
+  .info_work_box .left_info .about_work {
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .info_work_box .left_info .about_work h1 {
+    font-size: 4.25vw;
+    line-height: 6.35vw;
+  }
+  .info_about_box .about {
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .info_about_box .about h1 {
+    font-size: 4.25vw;
+    line-height: 6.35vw;
+  }
+  .title_info {
+    font-size: 4.25vw;
+    line-height: 6.35vw;
+  }
+  .list_r_pr a {
+    height: 20vw;
+  }
+  .right_info {
+    margin-top: 3vw;
+  }
+  .pr_info li {
+    font-size: 3.5vw;
+    line-height: 12vw;
+  }
+  .pr_info li img {
+    margin-right: 2.67vw;
+    width: 8vw;
+  }
+  .tag {
+    font-size: 4vw;
+    padding: 2.83vw 3.09vw;
+    margin-right: 2.52vw;
+    margin-bottom: 2.52vw;
+  }
+  .img_gal {
+    width: 22vw;
+    height: 22vw;
+  }
+  .pr_f li {
+    font-size: 4vw;
+  }
+  .pr_f li svg {
+    width: 4vw;
+    height: 4vw;
+  }
+  .pr_info, .tags, .gall, .our, .testimonials, .service {
+    margin-bottom: 4vw;
+  }
+  .left_info .img_box_about {
+    height: 50vw;
+  }
+  .stuf {
+    width: 30vw;
+    height: 20vw;
+  }
+  .our li {
+    font-size: 4vw;
+    margin-bottom: 1.93vw;
+  }
+  .prog {
+    height: 7.77vw;
+  }
+  .testimonials .huw {
+    height: 10vw;
+  }
+  .testimonials .huw img {
+    width: 10vw;
+    height: 10vw;
+  }
+  .testimonials .huw h3 {
+    font-size: 4vw;
+    margin-left: 4vw;
+  }
+  .testimonials_text {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .service li {
+    font-size: 4vw;
+  }
+  #list_post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .box_post {
+    width: 100%;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+    line-height: 5vw;
+    border-radius: 5vw;
+    -webkit-transition: 0s;
+    transition: 0s;
+  }
+  .box_post:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .about_post {
+    padding: 3vw;
+  }
+  .about_post h2 {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  .info_post {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .info_post svg {
+    height: 4vw;
+    margin-right: 2vw;
+  }
+  .img_post_h2 {
+    height: auto;
+  }
+  .single_lint a img {
+    width: 100%;
+  }
+  .single_lint a:hover svg {
+    opacity: 0;
+  }
+  .another {
+    padding: 3vw;
+  }
+  .another h3 {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+  .post_form {
+    padding: 3vw;
+    border-left: 2.5vw solid #1ab5b3;
+  }
+  .post_form h2 {
+    font-size: 4vw;
+  }
+  .post_form p {
+    font-size: 3vw;
+  }
+  .rew h4 {
+    font-size: 4vw;
+    line-height: 5vw;
+    margin-bottom: 4vw;
+  }
+  .rew .name_rew {
+    font-size: 4vw;
+  }
+  .rew p {
+    font-size: 10vw;
+    line-height: 4vw;
+  }
+  .more {
+    font-size: 4vw;
+  }
+  #box_contact {
+    width: 100%;
+  }
+  #box_contact p {
+    font-size: 4vw;
+  }
+  #form_comment form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #left_form, #right_form {
+    width: 100%;
+  }
+  .input input, .input textarea {
+    min-height: 10vw;
+    font-size: 3.5vw;
+  }
+  .icon_form {
+    width: 10vw;
+    height: 10vw;
+  }
+  .icon_form img {
+    height: 5.5vw;
+    width: 5.5vw;
+  }
+  #right_form .input textarea {
+    resize: none;
+    height: 50vw;
+  }
+  #right_form button {
+    height: 10vw;
+    font-size: 3.5vw;
+  }
+  #lit_comments li {
+    margin-bottom: 3vw;
+  }
+  .img_comment {
+    width: 10vw;
+    height: 10vw;
+  }
+  .about_comment h5 {
+    font-size: 3vw;
+  }
+  .about_comment p {
+    font-size: 2.7vw;
+  }
+  #info {
+    width: 10vw;
+    height: 10vw;
+  }
+  #info_box {
+    top: 10vw;
+    padding: 3vw;
+  }
+  #info_box svg {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 3vw;
+  }
+  .info_share {
+    font-size: 2.8vmax;
+    line-height: 6vmax;
+  }
+  .info_share p {
+    line-height: 6vw;
+  }
+  .form_comment form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    position: relative;
+    width: 100%;
+  }
+}

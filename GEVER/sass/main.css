@@ -1,0 +1,76 @@
+body {
+  background-color: #eaeaea;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: 1.14vmax;
+  line-height: 1.33vmax;
+  padding: 1vmax;
+  background-color: #C9D6FF;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2vmax;
+  margin-top: 1vmax;
+  margin-bottom: 2vmax;
+}
+
+header span {
+  margin-right: 1vw;
+  color: blue;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2vmax;
+  margin-bottom: 2vmax;
+  border-bottom: 0.5vmax dashed green;
+}
+
+.wrap:last-of-type {
+  border-bottom: none;
+}
+
+.prime {
+  line-height: 2vmax;
+  text-align: center;
+  margin-bottom: 2vmax;
+}
+
+.group {
+  padding: 1vmax 3vmax;
+  border: 0.5vmax solid tomato;
+  border-radius: 2vmax;
+}
+
+.group li {
+  line-height: 2vmax;
+}
+
+.group p {
+  margin-bottom: 1vmax;
+}
+
+.zap {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding: 1vmax 3vmax;
+  border: 0.5vmax solid blue;
+  border-radius: 2vmax;
+}
+
+.zap li {
+  line-height: 2vmax;
+}
+
+.zap p {
+  margin-bottom: 1vmax;
+}
